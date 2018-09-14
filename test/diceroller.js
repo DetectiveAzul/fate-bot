@@ -73,15 +73,15 @@ describe('Diceroller', function() {
 			testRolls(new Diceroller('3d6'), 3, 18);
 		});
 
-		it('each result should happen in a bell-shaped curve when 3d6 are rolled 10,000 times', function () {
+		xit('each result should happen in a bell-shaped curve when 3d6 are rolled 10,000 times', function () {
 			testRollsAreBell(new Diceroller('3d6'), 3, 18);
 		});
 
-		it('each result should happen in a bell-shaped curve when 2d6 are rolled 10,000 times', function () {
+		xit('each result should happen in a bell-shaped curve when 2d6 are rolled 10,000 times', function () {
 			testRollsAreBell(new Diceroller('2d6'), 2, 12);
 		});
 
-		it('each result should happen in a bell-shaped curve when 4df are rolled 10,000 times', function () {
+		xit('each result should happen in a bell-shaped curve when 4df are rolled 10,000 times', function () {
 			testRollsAreBell(new Diceroller('4df'), -4, 4);
 		});
 
